@@ -18,4 +18,5 @@ body{
 }
 .wrapper{
   width: 420px;
+  border-radius: 7px;
 }

@@ -35,7 +35,7 @@ body{
 .search input{
   height: 53px;
   width: 100%;
-  /* outline: none; */
+  outline: none;
   /* font-size: 16px; */
   /* border-radius: 5px; */
   /* padding: 0 42px; */

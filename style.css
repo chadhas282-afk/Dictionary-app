@@ -29,6 +29,6 @@ body{
   text-align: center;
 }
 .wrapper .search{
-  /* position: relative; */
+  position: relative;
   margin: 35px 0 18px;
 }

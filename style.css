@@ -48,3 +48,9 @@ body{
 .search input::placeholder{
   color: #B8B8B8;
 }
+.search :where(i, span){
+  position: absolute;
+  top: 50%;
+  color: #999;
+  transform: translateY(-50%);
+}

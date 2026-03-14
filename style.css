@@ -133,3 +133,7 @@ ul .content::-webkit-scrollbar{
   font-size: 15px;
   color: #7E7E7E;
 }
+.content .synonyms .list{
+  display: flex;
+  flex-wrap: wrap;
+}

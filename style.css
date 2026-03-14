@@ -82,3 +82,7 @@ body{
 .info-text span{
   font-weight: 500;
 }
+.wrapper.active ul{
+  opacity: 1;
+  height: 303px;
+}

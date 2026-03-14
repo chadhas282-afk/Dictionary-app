@@ -125,3 +125,11 @@ ul .content::-webkit-scrollbar{
   border-radius: 4px 0 0 4px;
   border-left: 3px solid #4D59FB;
 }
+.content li p{
+  font-size: 17px;
+  font-weight: 500;
+}
+.content li span{
+  font-size: 15px;
+  color: #7E7E7E;
+}

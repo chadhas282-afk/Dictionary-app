@@ -137,3 +137,8 @@ ul .content::-webkit-scrollbar{
   display: flex;
   flex-wrap: wrap;
 }
+.content .synonyms span{
+  cursor: pointer;
+  margin-right: 5px;
+  text-decoration: underline;
+}

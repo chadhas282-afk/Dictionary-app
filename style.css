@@ -120,3 +120,8 @@ ul .content{
 ul .content::-webkit-scrollbar{
   width: 0px;
 }
+.content li .details{
+  padding-left: 10px;
+  border-radius: 4px 0 0 4px;
+  border-left: 3px solid #4D59FB;
+}

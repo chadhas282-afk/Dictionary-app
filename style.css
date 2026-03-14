@@ -76,3 +76,9 @@ body{
   color: #9A9A9A;
   margin: -3px 0 -10px;
 }
+.wrapper.active .info-text{
+  display: none;
+}
+.info-text span{
+  font-weight: 500;
+}

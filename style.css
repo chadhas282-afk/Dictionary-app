@@ -71,3 +71,8 @@ body{
 .search input:valid ~ span{
   display: block;
 }
+.wrapper .info-text{
+  font-size: 13px;
+  color: #9A9A9A;
+  margin: -3px 0 -10px;
+}

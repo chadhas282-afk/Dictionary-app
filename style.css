@@ -100,3 +100,7 @@ ul li:last-child{
   border-bottom: 0;
   padding-bottom: 0;
 }
+ul .word p{
+  font-size: 22px;
+  font-weight: 500;
+}

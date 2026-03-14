@@ -62,3 +62,9 @@ body{
 .search input:focus ~ i{
   color: #4D59FB;
 }
+.search span{
+  right: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  display: none;
+}

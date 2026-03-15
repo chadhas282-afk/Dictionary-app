@@ -53,3 +53,11 @@ searchInput.addEventListener("keyup", e =>{
         fetchApi(word);
     }
 });
+
+removeIcon.addEventListener("click", ()=>{
+    searchInput.value = "";
+    searchInput.focus();
+    wrapper.classList.remove("active");
+    infoText.style.color = "#9A9A9A";
+    infoText.innerHTML = "Type any existing word and press enter to get meaning, example, synonyms, etc.";
+});

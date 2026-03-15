@@ -46,7 +46,6 @@ function fetchApi(word){
     });
 }
 
-
 searchInput.addEventListener("keyup", e =>{
     let word = e.target.value.replace(/\s+/g, ' ');
     if(e.key == "Enter" && word){

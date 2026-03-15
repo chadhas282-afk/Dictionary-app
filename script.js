@@ -14,5 +14,6 @@ function data(result, word){
         phontetics = `${result[0].meanings[0].partOfSpeech}  /${result[0].phonetics[0].text}/`;
         document.querySelector(".word p").innerText = result[0].word;
         document.querySelector(".word span").innerText = phontetics;
+        document.querySelector(".meaning span").innerText = definitions.definition;
     }
 }

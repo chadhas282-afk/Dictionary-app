@@ -16,5 +16,9 @@ function data(result, word){
         document.querySelector(".word span").innerText = phontetics;
         document.querySelector(".meaning span").innerText = definitions.definition;
         document.querySelector(".example span").innerText = definitions.example;
+
+        if(definitions.synonyms[0] == undefined){
+            synonyms.parentElement.style.display = "none";
+        }
     }
 }

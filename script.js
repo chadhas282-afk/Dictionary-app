@@ -23,7 +23,7 @@ function data(result, word){
             synonyms.parentElement.style.display = "block";
             synonyms.innerHTML = "";
             for (let i = 0; i < 5; i++) {
-                
+                let tag = `<span onclick="search('${definitions.synonyms[i]}')">${definitions.synonyms[i]},</span>`;
             }
         }
     }

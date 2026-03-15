@@ -45,3 +45,11 @@ function fetchApi(word){
         infoText.innerHTML = `Can't find the meaning of <span>"${word}"</span>. Please, try to search for another word.`;
     });
 }
+
+
+searchInput.addEventListener("keyup", e =>{
+    let word = e.target.value.replace(/\s+/g, ' ');
+    if(e.key == "Enter" && word){
+        fetchApi(word);
+    }
+});

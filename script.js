@@ -24,6 +24,8 @@ function data(result, word){
             synonyms.innerHTML = "";
             for (let i = 0; i < 5; i++) {
                 let tag = `<span onclick="search('${definitions.synonyms[i]}')">${definitions.synonyms[i]},</span>`;
+                tag = i == 4 ? tag = `<span onclick="search('${definitions.synonyms[i]}')">${definitions.synonyms[4]}</span>` : tag;
+                synonyms.insertAdjacentHTML("beforeend", tag);
             }
         }
     }

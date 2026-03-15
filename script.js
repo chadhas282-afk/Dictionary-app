@@ -19,6 +19,9 @@ function data(result, word){
 
         if(definitions.synonyms[0] == undefined){
             synonyms.parentElement.style.display = "none";
+        }else{
+            synonyms.parentElement.style.display = "block";
+            synonyms.innerHTML = "";
         }
     }
 }

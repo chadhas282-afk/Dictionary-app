@@ -15,5 +15,6 @@ function data(result, word){
         document.querySelector(".word p").innerText = result[0].word;
         document.querySelector(".word span").innerText = phontetics;
         document.querySelector(".meaning span").innerText = definitions.definition;
+        document.querySelector(".example span").innerText = definitions.example;
     }
 }

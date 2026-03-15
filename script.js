@@ -10,7 +10,7 @@ function data(result, word){
         infoText.innerHTML = `Can't find the meaning of <span>"${word}"</span>. Please, try to search for another word.`;
     }else{
         wrapper.classList.add("active");
-    
+        let definitions = result[0].meanings[0].definitions[0],
     
     
     

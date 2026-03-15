@@ -8,5 +8,13 @@ removeIcon = wrapper.querySelector(".search span");
 function data(result, word){
     if(result.title){
         infoText.innerHTML = `Can't find the meaning of <span>"${word}"</span>. Please, try to search for another word.`;
+    }else{
+        wrapper.classList.add("active");
+    
+    
+    
+    
+    
+    
     }
 }
